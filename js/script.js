@@ -29,6 +29,6 @@ ${userName}${userLastName}${favoriteColor}${age}
 `;
 console.log(result);
 
-const elemento = document.getElementById("riassunto");
+const elemento = document.getElementById("password");
 
 elemento.innerHTML = result; 
