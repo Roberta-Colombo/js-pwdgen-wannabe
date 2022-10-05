@@ -41,5 +41,22 @@ Benvenuto/a ${userName} ${userLastName}!
 console.log(saluto);
 
 const h1 = document.getElementById("saluto");
-
 h1.innerText = saluto;
+
+const colore = `
+Il tuo colore preferito è ${favoriteColor}.
+`;
+console.log(colore);
+
+const pColore = document.getElementById("colore");
+pColore.innerText = colore;
+
+let etaFutura = Number(age) + 10;
+
+const etaFuturaFrase = `
+Tra dieci anni ne avrai ${etaFutura}.
+`;
+console.log(etaFuturaFrase);
+
+const pEtaFutura = document.getElementById("eta-futura");
+pEtaFutura.innerText = etaFuturaFrase;
