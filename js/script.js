@@ -32,3 +32,14 @@ console.log(result);
 const elemento = document.getElementById("password");
 
 elemento.innerHTML = result; 
+
+// PROVE EXTRA
+
+const saluto = `
+Benvenuto/a ${userName} ${userLastName}!
+`;
+console.log(saluto);
+
+const h1 = document.getElementById("saluto");
+
+h1.innerText = saluto;
